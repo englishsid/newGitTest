@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2015-12-14 19:20:11">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_70397ADD_F00A_4150_AAAF_F2C3E81D31D1">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="ArchiMate 2.0 View" xmi.id="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_5C4D3159_23BB_4216_87D2_5FAB2B68911B"/>
+						<UML:TaggedValue tag="ea_package_id" value="2"/>
+						<UML:TaggedValue tag="created" value="2015-12-14 19:19:18"/>
+						<UML:TaggedValue tag="modified" value="2013-06-11 14:46:04"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2015-12-14 19:19:18"/>
+						<UML:TaggedValue tag="lastsavedate" value="2015-12-14 19:19:18"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="C++"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Class name="BusinessRole1" xmi.id="EAID_73650081_EAA7_440b_8B8D_167B30C9EC04" visibility="public" namespace="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="ArchiMate_BusinessRole"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1"/>
+								<UML:TaggedValue tag="date_created" value="2015-12-14 19:19:18"/>
+								<UML:TaggedValue tag="date_modified" value="2015-12-14 19:19:18"/>
+								<UML:TaggedValue tag="gentype" value="C++"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="ArchiMate 2.0 View"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="ArchiMate_BusinessRole"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E6134883-4786-4a5d-9B6A-97478A24CB84}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ArchiMate_BusinessRole;FQName=Archimate2::ArchiMate_BusinessRole;@ENDSTEREO;$DES;$CLT={73650081-EAA7-440b-8B8D-167B30C9EC04}$CLT;$ENDXREF;$XREFPROP=$XID={83FBF12E-5F40-4afe-9639-0DFAF8CB6546}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Archimate2::Business@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={73650081-EAA7-440b-8B8D-167B30C9EC04}$CLT;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_092BBA0B_CBA3_4845_9BF8_D13C15CC61EF" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="ArchiMate_Assignment"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="ArchiMate_Assignment"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«ArchiMate_Assignment»"/>
+								<UML:TaggedValue tag="ea_localid" value="1"/>
+								<UML:TaggedValue tag="ea_sourceName" value="BusinessActor1"/>
+								<UML:TaggedValue tag="ea_targetName" value="BusinessRole1"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="4"/>
+								<UML:TaggedValue tag="ea_targetID" value="3"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C9F6FF8B-F00F-4506-AF03-22F0F0739463}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ArchiMate_Assignment;FQName=Archimate2::ArchiMate_Assignment;@ENDSTEREO;$DES;$CLT={092BBA0B-CBA3-4845-9BF8-D13C15CC61EF}$CLT;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«ArchiMate_Assignment»"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_DBB43CA2_0105_46e5_8C09_2C284EF8E9CC">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_73650081_EAA7_440b_8B8D_167B30C9EC04">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Comment xmi.id="EAID_A8F17492_5868_41d0_8891_FF83D7808CA7" visibility="public" namespace="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Start your ArchiMate 2.0 modeling by dragging elements from the Toolbox onto this diagram."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1"/>
+								<UML:TaggedValue tag="date_created" value="2015-12-14 19:19:18"/>
+								<UML:TaggedValue tag="date_modified" value="2015-12-14 19:19:18"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="ArchiMate 2.0 View"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="2"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Class name="BusinessActor1" xmi.id="EAID_DBB43CA2_0105_46e5_8C09_2C284EF8E9CC" visibility="public" namespace="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="ArchiMate_BusinessActor"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1"/>
+								<UML:TaggedValue tag="date_created" value="2015-12-14 19:19:18"/>
+								<UML:TaggedValue tag="date_modified" value="2015-12-14 19:19:18"/>
+								<UML:TaggedValue tag="gentype" value="C++"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="ArchiMate 2.0 View"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="ArchiMate_BusinessActor"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="4"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1409017F-8144-4c7a-B751-321F0A7F69FB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ArchiMate_BusinessActor;FQName=Archimate2::ArchiMate_BusinessActor;@ENDSTEREO;$DES;$CLT={DBB43CA2-0105-46e5-8C09-2C284EF8E9CC}$CLT;$ENDXREF;$XREFPROP=$XID={E20BF14E-F615-40ba-9CE4-996A754CC4CD}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Archimate2::Business@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={DBB43CA2-0105-46e5-8C09-2C284EF8E9CC}$CLT;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Comment name="$help://archimate.htm" xmi.id="EAID_E9A29A14_A5C2_4f30_80D1_027EA7453670" visibility="public" namespace="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="19"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1"/>
+								<UML:TaggedValue tag="date_created" value="2015-12-14 19:19:18"/>
+								<UML:TaggedValue tag="date_modified" value="2015-12-14 19:19:18"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="ArchiMate 2.0 View"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="Learn about ArchiMate in the EA User Guide"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="5"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="actorkind" xmi.id="EAID_6D37ACDF_E8F9_8ce8_BDAE_6FC6BEAC0A51" value="standard#NOTES#Values: standard,compound&#xA;Default: standard&#xA;" modelElement="EAID_DBB43CA2_0105_46e5_8C09_2C284EF8E9CC"/>
+		<UML:Diagram name="ArchiMate 2.0 Business Layer Diagram" xmi.id="EAID_5FB5BD28_7FA0_4fc2_9354_6A6EA4E32322" diagramType="ClassDiagram" owner="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="created_date" value="2015-12-14 19:19:18"/>
+				<UML:TaggedValue tag="modified_date" value="2015-12-14 19:19:18"/>
+				<UML:TaggedValue tag="package" value="EAPK_70397ADD_F00A_4150_AAAF_F2C3E81D31D1"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="1"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1110;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=0E842A74;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=Archimate2::Business;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=208;Top=218;Right=298;Bottom=288;" subject="EAID_73650081_EAA7_440b_8B8D_167B30C9EC04" seqno="1" style="UCRect=1;HideIcon=0;LBL=CX=90:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;DUID=B970DF0D;"/>
+				<UML:DiagramElement geometry="Left=69;Top=218;Right=159;Bottom=288;" subject="EAID_DBB43CA2_0105_46e5_8C09_2C284EF8E9CC" seqno="2" style="UCRect=1;HideIcon=0;LBL=CX=90:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;DUID=60030AD1;"/>
+				<UML:DiagramElement geometry="Left=69;Top=155;Right=308;Bottom=175;" subject="EAID_E9A29A14_A5C2_4f30_80D1_027EA7453670" seqno="3" style="HideIcon=0;DUID=1F3DD9B1;"/>
+				<UML:DiagramElement geometry="Left=69;Top=33;Right=184;Bottom=112;" subject="EAID_A8F17492_5868_41d0_8891_FF83D7808CA7" seqno="4" style="DUID=C50212CC;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=15:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_092BBA0B_CBA3_4845_9BF8_D13C15CC61EF" style="Mode=3;EOID=3634AAFD;SOID=FAE1815E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAModel.paramSub/>
+	</XMI.extensions>
+</XMI>
